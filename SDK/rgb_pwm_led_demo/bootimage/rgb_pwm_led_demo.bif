@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN; zynq_key_store = efuse; key_part_name = xc7z020
+the_ROM_image:
+{
+    [bootloader]fsbl\Release\fsbl.elf
+    demo_hw_platform\design_1_wrapper.bit
+    rgb_pwm_led_demo\Release\rgb_pwm_led_demo.elf
+}
